@@ -8,7 +8,6 @@ int gFunc[vertexNum];
 int closeNode[vertexNum];
 int nowNode;
 int graph[edgeNum][3]={
-
 };
 
 int main() {
