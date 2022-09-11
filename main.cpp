@@ -40,7 +40,7 @@ void prepareArrays(){
 
 void fFuncUpdate(int vertex){
     for(int i = 0;i < edgeNum;i++){
-        if(graph[i][0] == vertex && fFunc[graph[i][1]] > (graph[i][2] + gFunc[vertex] + hFunc[graph[i][1]])){
+        if(graph[i][0] == vertex && fFunc[graph[i][1]] > (graph[i][2] + gFunc[vertex] + hFunc[graph[i][1]])){             //check gN , not fN for min
             fFunc[graph[i][1]] = (graph[i][2] + gFunc[vertex] + hFunc[graph[i][1]]);
             gFunc[graph[i][1]] = gFunc[vertex] + graph[i][2];
         }
