@@ -1,5 +1,7 @@
 #include <iostream>
+
 using namespace std;
+
 const int vertexNum = 13;
 const int edgeNum = 18;
 int fFunc[vertexNum];
@@ -8,9 +10,8 @@ int gFunc[vertexNum];
 int closeNode[vertexNum];
 int nowNode;
 int graph[edgeNum][3]={
-
+    
 };
 
 int main() {
-    return 0;
 }
