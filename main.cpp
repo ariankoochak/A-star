@@ -53,6 +53,7 @@ int minFFunc(){
 }
 
 void fFuncUpdate(int vertex){
+    int test;
     for(int i = 0;i < edgeNum;i++){
         if(graph[i][0] == vertex && gFunc[graph[i][1]] > (gFunc[vertex] + graph[i][2])){
             gFunc[graph[i][1]] = gFunc[vertex] + graph[i][2];
