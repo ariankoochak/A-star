@@ -12,6 +12,7 @@ int pathCounter = 0;
 int closeNode[vertexNum];
 int nowNode;
 int destNode;
+int prevNode;
 int graph[edgeNum][3]={
     {0,1,3},
     {0,3,4},
